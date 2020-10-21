@@ -1,0 +1,71 @@
+body {
+    background-color: #c31212;
+}
+.page {
+    width: 80%;
+    max-width: 960px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #03197e;
+}
+body {
+    font: 14px/16px 'Bungee', Helvetica, Arial, sans-serif;
+    color: #9cba11;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+}
+header {
+    font-size: 24px;
+    line-height: 48px;
+}
+h4 {
+    font-size: 22px;
+    font-family: 'Bungee';
+}
+h4 #clock {
+    font-size: 36px;
+    display: block;
+    padding: 5px 0px;
+}
+h1, h2, h3, h6 {
+    font-family: 'Bungee Shade', cursive;
+}
+#clockImage {
+    max-width: 40em;
+}
+blockquote {
+    font: 2em/1em 'Open Sans', sans-serif;
+    -webkit-text-stroke: 1px #a22d2d;
+    text-shadow: 2px 2px #b14242;
+    margin: -80px 0 100px 0px;
+}
+blockquote:before { content: '"';}
+blockquote:after {content: '"';}
+
+#lolcat {
+    margin: 0 auto;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 10px;
+    border:10px solid #bf3131;
+}
+#wakeUpTimeSelector, #lunchTimeSelector, #napTimeSelector {
+    padding: 10px 0;
+}
+#partyTimeButton {
+    background-color: #b82929;
+    width: 300px;
+    font-family: 'Bungee', cursive;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    text-transform: uppercase;
+    font-size: 12px;
+}
